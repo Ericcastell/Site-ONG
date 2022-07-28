@@ -1,13 +1,13 @@
 <!doctype html>
 <!--forms para inscricao-->
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Carousel Template · Bootstrap v5.1</title>
+    <title>Formulário de Inscrição</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
     
     <!-- Bootstrap core CSS -->
@@ -31,14 +31,15 @@
   <link href="../../Front-End/Index_and_css/carousel.css" rel="stylesheet">
   </head>
   <body>
+
+  <?php include '../../Front-End/assets/xmenu.php';?>
    
-  <?php include 'C:\xampp\htdocs\Site_ONG\Front-End\assets\xmenu.php';?>
 
 <main>
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="../../Imagens_and_Icons/FundoPagVoluntario.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
         <div class="container">
           <div class="carousel-caption">
             <h1>Seja Voluntário</h1>
@@ -53,7 +54,7 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
 
-<form action="save_ins.php" method="post">
+<form action="assets/save_ins.php" method="post">
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col-md-12">
@@ -174,7 +175,7 @@
     <!-- /END THE FEATURETTES -->
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
+    <p class="float-end"><a href="#">Voltar ao topo</a></p>
     <p>&copy; 2018–2021 Grande A(l)titudes, Ong. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
